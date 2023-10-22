@@ -1,0 +1,621 @@
+@media screen  and (max-width: 1145px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .commonBlock {
+    .reviews {
+      .owl-carousel {
+        .owl-nav {
+          overflow: hidden;
+
+          button {
+            &:first-child {
+              position: absolute;
+              top: 120px;
+              left: -50px;
+            }
+
+            &:last-child {
+              position: absolute;
+              top: 120px;
+              right: -50px;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media screen  and (max-width: 1128px) {
+  .commonBlock {
+    .lounge {
+      .container {
+        .lounge-actions {
+          .button.blue {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media screen  and (max-width: 985px) {
+
+  .commonBlock {
+    .rooms {
+      margin-top: 140px;
+      margin-bottom: 172px;
+
+      .container {
+
+        h2 {
+          margin-bottom: 47px;
+        }
+
+        .rooms-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .room {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .room-image {
+              margin-left: 0;
+              margin-bottom: 20px;
+            }
+
+            &:nth-child(2) {
+              .room-image {
+                margin-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .order {
+      .container {
+        padding-bottom: 100px;
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 898px) {
+
+  .commonBlock {
+    .reviews {
+      .container {
+        .owl-carousel {
+
+          .owl-nav {
+            display: none;
+          }
+
+
+        }
+
+        .owl-theme {
+          .owl-dots {
+            display: block;
+            margin-top: 20px;
+
+            .owl-dot.active {
+              span {
+                background-color: #78eaff; ///????
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 835px) {
+
+  .commonBlock {
+    .header {
+      .header-info {
+        flex-direction: column;
+
+        .header-logo {
+          margin-bottom: 15px;
+        }
+      }
+
+      .header-contacts {
+        flex-direction: column;
+
+        .header-phone {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    .owl-nav {
+      display: none;
+    }
+  }
+
+
+}
+
+@media screen  and (max-width: 820px) {
+  .commonBlock {
+    .reviews {
+      .container {
+        h2 {
+          margin-bottom: 40px;
+        }
+
+        .owl-carousel {
+          .review {
+            margin: 0 auto;
+
+            .review-info {
+              justify-content: center;
+              margin-bottom: 12px;
+
+              .name {
+                font-size: 17px;
+
+                span {
+                  font-size: 15px;
+                }
+              }
+            }
+
+            .review-text {
+              margin: 0 auto;
+              font-size: 14px;
+              max-width: 233px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 786px) {
+
+  .commonBlock {
+    .advantages {
+      padding-bottom: 100px;
+
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .coals {
+          img {
+            opacity: 6%;
+
+          }
+        }
+
+        .circle {
+          display: none;
+        }
+
+        .advantage {
+          position: static !important;
+          text-align: center;
+          margin-bottom: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .footer {
+      padding: 124px 15px 40px 15px;
+
+      .container {
+        display: block;
+        position: relative;
+
+        .footer-main {
+          position: absolute;
+          bottom: 97px;
+
+          .rights {
+            display: none;
+          }
+
+          .sls {
+            margin-top: 40px;
+          }
+        }
+
+        .footer-info {
+          display: none;
+        }
+
+        .footer-contacts {
+          display: grid;
+          grid-template-rows: repeat(2, auto);
+          grid-template-columns: repeat(2, auto);
+          row-gap: 41px;
+
+          .contact-title {
+            display: none;
+          }
+
+          .footer-phone {
+            grid-area: ~'2/2/3/3';
+            justify-self: end;
+            margin: 0;
+          }
+
+          .footer-address {
+            grid-area: ~'1/2/2/3';
+            justify-self: end;
+            margin-bottom: 0;
+
+            span {
+              display: block;
+              margin-top: 10px;
+            }
+
+            svg {
+              display: block;
+            }
+          }
+
+          .footer-hours {
+            grid-area: ~'2/1/3/3'
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen  and (max-width: 768px) {
+
+  .commonBlock {
+
+    .bg {
+      left: unset;
+      right: -385px;
+    }
+
+    .firstSmoke {
+      display: none;
+    }
+
+    .header {
+      .container {
+        justify-content: space-between;
+        align-items: center;
+
+        .header-info {
+          display: block;
+
+          .header-logo {
+            margin-right: 55px;
+
+          }
+
+          .header-address {
+            display: none;
+          }
+        }
+
+        .header-contacts {
+
+          .header-phone {
+            margin-bottom: 0;
+
+            svg {
+              display: none;
+            }
+          }
+
+          .header-hours {
+            display: none;
+          }
+        }
+
+        .burger {
+          display: block;
+        }
+
+      }
+    }
+
+    .lounge {
+      .container {
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: auto;
+        align-items: center;
+        justify-items: center;
+        padding-bottom: 0;
+        margin-bottom: 100px;
+
+        .lounge-title {
+          font-size: 32px;
+          text-align: center;
+          margin-bottom: 20px;
+          grid-area: ~'1/1/2/2';
+          padding-top: 59px;
+        }
+
+        .lounge-text {
+          font-size: 14px;
+          text-align: center;
+          grid-area: ~'2/1/3/2';
+        }
+
+        .lounge-image {
+          grid-area: ~'3/1/4/2';
+          padding: 0;
+
+
+          .kolbafire {
+            right: 190px;
+          }
+
+          .kolbasmoke {
+            right: 19px;
+          }
+
+          .kolba {
+            width: 100%;
+          }
+        }
+
+        .lounge-actions {
+          grid-area: ~'4/1/5/2';
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 565px) {
+  .commonBlock {
+    .secondSmoke {
+      display: none;
+    }
+
+    .menu-smoke {
+      display: none;
+    }
+
+    .ps {
+      display: none;
+    }
+
+    .order-smoke {
+      display: none;
+    }
+
+    .menu {
+      .container {
+        .menu-main {
+          .menu-info {
+            padding: 55px 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 550px) {
+  .commonBlock {
+    .lounge {
+      .container {
+
+        .lounge-image {
+
+          .kolbafire {
+            right: 182px;
+          }
+
+          .kolbasmoke {
+            right: 14px;
+          }
+        }
+
+        .lounge-actions {
+          grid-area: ~'4/1/5/2';
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 506px) {
+
+  .commonBlock {
+    .advantages {
+      .container {
+        .circle {
+          display: none;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen  and (max-width: 476px) {
+
+  .commonBlock {
+
+    .bg {
+      right: -524px;
+    }
+
+    .advantages {
+      .container {
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+
+    .video-slider {
+      .container {
+        h2 {
+          font-size: 32px;
+          margin-bottom: 40px;
+        }
+
+        .fotorama {
+          .fotorama__arr--next {
+            display: none;
+          }
+
+          .fotorama__arr--prev {
+            display: none;
+          }
+        }
+
+        .mint {
+          display: none;
+        }
+      }
+    }
+
+    .menu {
+      .container {
+        h2 {
+          font-size: 32px;
+
+          .menu-main {
+            .menu-info {
+              h3 {
+                font-size: 32px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .rooms {
+      .container {
+        h2 {
+          font-size: 32px;
+        }
+
+        .rooms-info {
+          .room-description {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .order {
+      .container {
+        h2 {
+          font-size: 32px;
+        }
+
+        form {
+          text-align: center;
+
+          input {
+            width: 100%;
+          }
+
+          .select {
+            width: 100%;
+
+            select {
+              width: 100%;
+            }
+
+          }
+
+          .button.order-btn {
+            width: 100%;
+          }
+
+          .success-message {
+            h2 {
+              font-size: 32px;
+            }
+
+            .success-info {
+              font-size: 14px;
+            }
+
+            .success-text {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .circles {
+          display: none;
+        }
+
+      }
+
+    }
+
+    .reviews {
+      .container {
+        h2 {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen  and (max-width: 418px) {
+  .commonBlock {
+    .bg {
+      right: -570px;
+    }
+  }
+}
+
+@media screen  and (max-width: 359px) {
+  .commonBlock {
+    .bg {
+      right: -605px;
+    }
+  }
+}
+
+@import "common";
