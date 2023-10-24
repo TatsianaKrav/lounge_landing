@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 
     document.querySelector('.button').addEventListener('click', function (e) {
-        document.getElementById('menu').scrollIntoView({behavior: "smooth"});
+        document.getElementById('menuList').scrollIntoView({behavior: "smooth"});
         e.preventDefault();
     });
 
